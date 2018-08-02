@@ -24,7 +24,7 @@ SECRET_KEY = 'h^=)(vi^-)e#wgklj9kk0jv&+#&d+8f&5qm9*k76hxa%7-7zm2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['test-trial.apps.cs.cf.ac.uk','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['save-trying.apps.cs.cf.ac.uk','localhost', '127.0.0.1']
 
 
 # Application definition
