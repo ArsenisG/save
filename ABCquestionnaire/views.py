@@ -52,11 +52,11 @@ def create_survey(request):
                 answers.choice13,answers.choice14,answers.choice15,answers.choice16,answers.choice17,
             ]
             return redirect('/result')
-    # for answer in datas:
-    #     f=open('data.txt', 'a')
-    #     f.write(answer+",")
-    # f.write("\n")
-    # f.close()
+    for answer in datas:
+        f=open('data.txt', 'a')
+        f.write(answer+",")
+    f.write("\n")
+    f.close()
     return render(request,'ABCquestionnaire/result.html',{"datas":datas})
         
 
